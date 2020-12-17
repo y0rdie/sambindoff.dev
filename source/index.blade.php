@@ -1,51 +1,25 @@
 @extends('_layouts.master')
 
 @section('body')
-    @foreach ($posts->where('featured', true) as $featuredPost)
-        <div class="w-full mb-6">
-            @if ($featuredPost->cover_image)
-                <img src="{{ $featuredPost->cover_image }}" alt="{{ $featuredPost->title }} cover image" class="mb-6">
-            @endif
+    <div class="flex items-center justify-center">
+        <a href="/" title="sambindoff.dev" class="block"><img src="/assets/images/avatar.jpg" alt="Sam Bindoff" class="border rounded-full w-40 h-40 object-cover" /></a>
+    </div>
 
-            <p class="text-gray-700 font-medium my-2">
-                {{ $featuredPost->getDate()->format('F j, Y') }}
-            </p>
+    <div class="mt-4 prose">
+        <h3 class="text-center">Hi there 👋</h3>
 
-            <h2 class="text-3xl mt-0">
-                <a href="{{ $featuredPost->getUrl() }}" title="Read {{ $featuredPost->title }}" class="text-gray-900 font-extrabold">
-                    {{ $featuredPost->title }}
-                </a>
-            </h2>
+        <p class="font-medium text-center">I'm Sam, a full-stack developer from Newcastle upon Tyne, UK.</p>
 
-            <p class="mt-0 mb-4">{!! $featuredPost->getExcerpt() !!}</p>
-
-            <a href="{{ $featuredPost->getUrl() }}" title="Read - {{ $featuredPost->title }}" class="uppercase tracking-wide mb-4">
-                Read
-            </a>
-        </div>
-
-        @if (! $loop->last)
-            <hr class="border-b my-6">
-        @endif
-    @endforeach
-
-    @include('_components.newsletter-signup')
-
-    @foreach ($posts->where('featured', false)->take(6)->chunk(2) as $row)
-        <div class="flex flex-col md:flex-row md:-mx-6">
-            @foreach ($row as $post)
-                <div class="w-full md:w-1/2 md:mx-6">
-                    @include('_components.post-preview-inline')
-                </div>
-
-                @if (! $loop->last)
-                    <hr class="block md:hidden w-full border-b mt-2 mb-6">
-                @endif
-            @endforeach
-        </div>
-
-        @if (! $loop->last)
-            <hr class="w-full border-b mt-2 mb-6">
-        @endif
-    @endforeach
+        <ul class="rounded-3xl shadow-2xl bg-white px-6 py-4 sm:px-8">
+            <li>🎓 I'm a Laracasts graduate, meaning I love all things <strong>Laravel</strong> and <strong>VueJS</strong>.</li>
+            <li>🏢 I currently split my time as a contractor and release products through Doddle Soft Ltd.</li>
+            <li>🏳️‍🌈 We have a flagship product, a booking platform called <a href="https://www.whatadoddle.co.uk" title="Doddle Home" target="_blank">Doddle</a>.</li>
+            <li>🔨 My current side project is a scratch my own itch shopping list app.</li>
+            <li>🌱 I'm trying to learn more about <strong>DDD</strong> and how to implement this in large scale Laravel projects.</li>
+            <li>👯 I’m looking to collaborate on anything <strong>Open Source</strong>.</li>
+            <li>💬 Ask me anything about <strong>webdev</strong>.</li>
+            <li>📫 You can reach me at <a href="https://twitter.com/sambindoff" target="_blank">twitter.com/sambindoff</a>.</li>
+            <li>👬🏻 Fun fact: I'm a twin to the beautiful Tommy B!</li>
+        </ul>
+    </div>
 @stop

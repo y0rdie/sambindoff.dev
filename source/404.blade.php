@@ -1,15 +1,9 @@
 @extends('_layouts.master')
 
 @section('body')
-    <div class="flex flex-col items-center text-gray-700 mt-32">
-        <h1 class="text-6xl font-light leading-none mb-2">404</h1>
-
-        <h2 class="text-3xl">Page not found.</h2>
-
-        <hr class="block w-full max-w-sm mx-auto border my-8">
-
-        <p class="text-xl">
-            Need to update this page? See the <a title="404 Page Documentation" href="https://jigsaw.tighten.co/docs/custom-404-page/">Jigsaw documentation</a>.
-        </p>
+    <div class="rounded-3xl shadow-2xl bg-white px-6 py-6 sm:px-8 text-center prose">
+        <h1>404</h1>
+        <hr class="block w-full border">
+        <p class="font-medium">You look lost, head <a href="/" title="sambindoff.dev">home</a> and start again.</p>
     </div>
 @endsection
