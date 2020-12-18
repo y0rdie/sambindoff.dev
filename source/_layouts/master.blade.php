@@ -26,7 +26,7 @@
     </head>
 
     <body class="flex items-center justify-center w-full min-h-screen bg-gray-100">
-        <main class="max-w-4xl mx-auto p-10" role="main">
+        <main class="max-w-4xl mx-auto px-10 pt-10 pb-20 sm:pb-10" role="main">
             @yield('body')
         </main>
     </body>
