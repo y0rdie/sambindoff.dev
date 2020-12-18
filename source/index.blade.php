@@ -18,7 +18,7 @@
             <li>🌱 I'm trying to learn more about <strong>DDD</strong> and how to implement this in large scale Laravel projects.</li>
             <li>👯 I’m looking to collaborate on anything <strong>Open Source</strong>.</li>
             <li>💬 Ask me anything about <strong>webdev</strong>.</li>
-            <li>📫 You can reach me at <a href="https://twitter.com/sambindoff" target="_blank">twitter.com/sambindoff</a>.</li>
+            <li class="flex items-center">📫 You can reach me at @include('icons')</li>
             <li>👬🏻 Fun fact: I'm a twin to the beautiful Tommy B!</li>
         </ul>
     </div>
