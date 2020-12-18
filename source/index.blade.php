@@ -2,7 +2,7 @@
 
 @section('body')
     <div class="flex items-center justify-center">
-        <a href="/" title="sambindoff.dev" class="block"><img src="/assets/images/avatar.jpg" alt="Sam Bindoff" class="border rounded-full w-40 h-40 object-cover" /></a>
+        <a href="/" title="sambindoff.dev" class="block"><img src="/assets/images/avatar.jpg" alt="Sam Bindoff" class="border-2 rounded-full w-40 h-40 object-cover" /></a>
     </div>
 
     <div class="mt-4 prose">
@@ -18,7 +18,7 @@
             <li>🌱 I'm trying to learn more about <strong>DDD</strong> and how to implement this in large scale Laravel projects.</li>
             <li>👯 I’m looking to collaborate on anything <strong>Open Source</strong>.</li>
             <li>💬 Ask me anything about <strong>webdev</strong>.</li>
-            <li class="flex items-center">📫 You can reach me at @include('icons')</li>
+            <li class="flex items-center">📫 You can reach me at @include('_partials.icons')</li>
             <li>👬🏻 Fun fact: I'm a twin to the beautiful Tommy B!</li>
         </ul>
     </div>
