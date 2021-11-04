@@ -18,7 +18,7 @@
 
         @if ($page->production)
             <!-- Fathom - beautiful, simple website analytics -->
-            <script src="https://bonobo.sambindoff.dev/script.js" data-site="GNKUURHU" defer></script>
+            <script src="https://trusting-prepared.sambindoff.dev/script.js" data-site="GNKUURHU" defer></script>
             <!-- / Fathom -->
         @endif
 
