@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-**I'm Sam, a full-stack developer from Newcastle upon Tyne, UK.**
+**I'm Sam, a full-stack developer from Whitley Bay, UK.**
 
 - 🎓 I'm a Laracasts graduate, meaning I love all things **Laravel** and **VueJS**.
 - 🏢 I currently split my time as a contractor and release products through Doddle Soft Ltd.
@@ -9,5 +9,5 @@
 - 🌱 I'm trying to learn more about **DDD** and how to implement this in large scale Laravel projects.
 - 👯 I'm looking to collaborate on anything **Open Source**.
 - 💬 Ask me anything about **webdev**.
-- 📫 You can reach me at [twitter.com/sambindoff](https://twitter.com/sambindoff).
+- 📫 You can reach me at [twitter.com/y0rdi3](https://twitter.com/y0rdi3).
 - 👬🏻 Fun fact: I'm a twin to the beautiful Tommy B!
