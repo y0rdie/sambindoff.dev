@@ -1,10 +1,10 @@
 {
   "private": true,
   "scripts": {
-    "local": "mix",
-    "production": "mix --production",
-    "dev": "npm run local",
-    "watch": "npm run local -- --watch"
+    "dev": "mix",
+    "watch": "mix watch",
+    "staging": "NODE_ENV=staging mix",
+    "prod": "mix --production"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.0",
